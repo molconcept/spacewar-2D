@@ -4,7 +4,7 @@
 # Features 💾
 ⚙️ Game Mechanics : The game features controls for player movement, shooting, and for navigating through different game phase.
   
-🪜 Level Progression : The game should include 10 levels with increasing difficulty, each with unique challenges and enemy types.
+🪜 Level Progression : The game include 10 levels with increasing difficulty, each with unique challenges and enemy types.
 
 📈 Scoring System : A scoring mechanism to track the player's performance and provide feedback on their progress.
 
