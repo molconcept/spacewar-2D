@@ -15,5 +15,5 @@
 🔊 Sound Effects and BGM : Utilizes the Python's Pygame library to play BGM & SFX.
 
 # Gameplay Screenshots 🎮
-
-
+![c1](https://github.com/molconcept/spacewar-2D/assets/136116021/b9afcf4e-d49c-43bc-ae73-2351b34201b3)
+![c2](https://github.com/molconcept/spacewar-2D/assets/136116021/e34f4859-5f96-4006-9fae-637f21a1e673)
