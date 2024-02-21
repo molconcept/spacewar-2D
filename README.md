@@ -19,6 +19,6 @@
 ![c2](https://github.com/molconcept/spacewar-2D/assets/136116021/e34f4859-5f96-4006-9fae-637f21a1e673)
 
 # How To Run ▶️
-📦EXE : First way is to just install and run the exe package i.e. the "SpaceWar_Installer.exe" file and this will run the compiled executable version of the code.
+📦EXE : First way is to just install and run the exe package i.e. the "SpaceWar_Installer(x64).exe" file and this will run the compiled executable version of the code.
 
 📁Py_File : Second way is to download the above "spacewar_py" folder and then inside it you will find a file named 'main_code.py', but before running this .py file in an IDE make sure you have installed all the modules/dependencies that have been imported in the code of .py file.
