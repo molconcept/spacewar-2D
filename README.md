@@ -8,11 +8,22 @@
 
 📈 Scoring System : A scoring mechanism to track the player's performance and provide feedback on their progress.
 
-🖥 Graphics : Utilizes the Python Turtle module to create visually appealing 2D graphics and animations.
+🔳 Graphics : Utilizes the Python Turtle module to create visually appealing 2D graphics and animations.
 
 🕹 User Interface : A mainmenu screen that provides easy access to options like game Controls, About, and Quit.
 
 🔊 Sound Effects and BGM : Utilizes the Python's Pygame library to play BGM & SFX.
+
+# Minimum System Requirements 🖥
+Processor : Dual-core processor clocked at 2.0 GHz or higher.
+
+Memory : 2 GB RAM.
+
+Graphics : Integrated graphics with OpenGL support.
+
+Storage : 150 MB of available storage space.
+
+Operating System : Windows 7 or newer.
 
 # Gameplay Screenshots 🎮
 ![c1](https://github.com/molconcept/spacewar-2D/assets/136116021/b9afcf4e-d49c-43bc-ae73-2351b34201b3)
