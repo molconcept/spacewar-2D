@@ -11,6 +11,10 @@ wn.bgcolor("black")
 wn.setup(700,700)
 wn.tracer(0)
 
+#Icon of the window
+root = turtle.Screen()._root
+root.iconbitmap("spw_exe.ico")
+
 #Loading Sounds
 pygame.init()
 pygame.mixer
@@ -45,14 +49,14 @@ bg_imgs = ("mmtext.gif", "control_pop.gif", "about_pop.gif", "quit_pop.gif", "pa
 for img in bg_imgs:
     wn.addshape(img)
 for ip in range(10):
-    wn.addshape(f"info_m{ip+1}.gif")
+    wn.addshape("info_m{}.gif".format(ip+1))
 
 
 #Spaceship Images
 model = "ship"
 sp = (0, 45, 90, 135, 180, 225, 270, 315)
 for u in sp:
-    wn.addshape(f'shuttles\{model}{u}.gif')
+    wn.addshape('shuttles\{}{}.gif'.format(model, u))
 
 #Enemy Images
 en_imgs = (("enemy_1.gif", "enemy_1v2.gif", "enemy_1v3.gif"),\
@@ -150,7 +154,7 @@ class Player(Sprite):
         global model
         for x in [0, 45, 90, 135, 180, 225, 270, 315]:
             if x==self.heading():
-                self.shape(f'shuttles\{model}{x}.gif')
+                self.shape('shuttles\{}{}.gif'.format(model, x))
 
     #Player Health Bar
     def health_bar(self, pen):
@@ -263,7 +267,7 @@ class Missile(Sprite):
                 self.setheading (player.heading())
                 self.status = "firing"
                 self.miss_no -= 1
-                msg3 = f"Missiles Charges : {self.miss_no}"
+                msg3 = "Missiles Charges : {}".format(self.miss_no)
                 self.track.undo()
                 self.track.ht()
                 self.track.penup()
@@ -812,7 +816,7 @@ while True:
                 game.enm_no = 15
                 missile.speed = 30
                 if missile.miss_no == 30:
-                    msg3 = f"Missiles Charges : {missile.miss_no}"
+                    msg3 = "Missiles Charges : {}".format(missile.miss_no)
                     missile.track.undo()
                     missile.track.ht()
                     missile.track.penup()
@@ -1377,7 +1381,7 @@ while True:
         if game.info_state and game.phase == 'play':
             for mis in range(1, 11):
                 if game.mission == mis:
-                    game.bg[3].shape(f"info_m{mis}.gif")
+                    game.bg[3].shape("info_m{}.gif".format(mis))
                     game.bg[3].st()
                 else:
                     continue
