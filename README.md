@@ -23,7 +23,7 @@ Graphics : Integrated graphics with OpenGL support.
 
 Storage : 150 MB of available storage space.
 
-Operating System : Windows 7 or newer.
+Operating System : Windows 7 or newer (64-bit).
 
 # Gameplay Screenshots 🎮
 ![c1](https://github.com/molconcept/spacewar-2D/assets/136116021/b9afcf4e-d49c-43bc-ae73-2351b34201b3)
